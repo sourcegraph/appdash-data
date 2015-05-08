@@ -76,27 +76,7 @@ func readme_md() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "README.md", size: 1149, mode: os.FileMode(436), modTime: time.Unix(1427920443, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _data_go = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x01\x00\x00\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00")
-
-func data_go_bytes() ([]byte, error) {
-	return bindata_read(
-		_data_go,
-		"data.go",
-	)
-}
-
-func data_go() (*asset, error) {
-	bytes, err := data_go_bytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindata_file_info{name: "data.go", size: 0, mode: os.FileMode(436), modTime: time.Unix(1427920494, 0)}
+	info := bindata_file_info{name: "README.md", size: 1149, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -117,26 +97,6 @@ func favicon_png() (*asset, error) {
 	}
 
 	info := bindata_file_info{name: "favicon.png", size: 925, mode: os.FileMode(436), modTime: time.Unix(1426811952, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _generate_go = []byte("\x1f\x8b\x08\x00\x00\x09\x6e\x88\x00\xff\x5c\xcd\x31\x12\x02\x21\x0c\x85\xe1\x7e\x4f\xc1\x05\x20\x85\x9d\x33\x1e\x26\x2c\xcf\x18\x59\x13\x86\x65\x1b\x4f\xef\x8a\x9d\x55\xf2\x7f\xcd\x23\x12\xbf\x0a\x0c\x9d\x07\x82\x78\xcc\x6a\x85\x07\x87\xd8\xaa\xdc\x7e\x9f\x87\xef\x4d\xe2\x21\x85\x44\x19\x56\x01\xa3\x72\x69\x0a\x3a\xe1\xa9\xfc\x38\xd8\xe4\x94\x38\xf4\x85\x4d\x6d\x7a\xed\xba\x57\xba\x1f\xfb\xac\x37\xba\xaf\x9b\xb6\xec\xdc\xcb\x5f\x2d\x4b\xe3\xb5\xb2\x60\x0e\x2d\x9f\x00\x00\x00\xff\xff\xe3\xb6\x0a\x5a\x94\x00\x00\x00")
-
-func generate_go_bytes() ([]byte, error) {
-	return bindata_read(
-		_generate_go,
-		"generate.go",
-	)
-}
-
-func generate_go() (*asset, error) {
-	bytes, err := generate_go_bytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindata_file_info{name: "generate.go", size: 148, mode: os.FileMode(436), modTime: time.Unix(1427919541, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -216,7 +176,7 @@ func benkeen_d3pie_d3pie_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "benkeen/d3pie/d3pie.min.js", size: 33467, mode: os.FileMode(436), modTime: time.Unix(1427918987, 0)}
+	info := bindata_file_info{name: "benkeen/d3pie/d3pie.min.js", size: 33467, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -236,7 +196,7 @@ func jiahuang_d3_timeline_d3_timeline_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "jiahuang/d3-timeline/d3-timeline.js", size: 15247, mode: os.FileMode(436), modTime: time.Unix(1427918649, 0)}
+	info := bindata_file_info{name: "jiahuang/d3-timeline/d3-timeline.js", size: 15247, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -256,7 +216,7 @@ func krisk_fuse_fuse_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "krisk/fuse/fuse.min.js", size: 4440, mode: os.FileMode(436), modTime: time.Unix(1427918721, 0)}
+	info := bindata_file_info{name: "krisk/fuse/fuse.min.js", size: 4440, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -276,7 +236,7 @@ func zeroclipboard_zeroclipboard_zeroclipboard_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.min.js", size: 29911, mode: os.FileMode(436), modTime: time.Unix(1427918757, 0)}
+	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.min.js", size: 29911, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -296,7 +256,7 @@ func zeroclipboard_zeroclipboard_zeroclipboard_min_map() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.min.map", size: 129271, mode: os.FileMode(436), modTime: time.Unix(1427919703, 0)}
+	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.min.map", size: 129271, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -316,7 +276,7 @@ func zeroclipboard_zeroclipboard_zeroclipboard_swf() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.swf", size: 6580, mode: os.FileMode(436), modTime: time.Unix(1427919689, 0)}
+	info := bindata_file_info{name: "zeroclipboard/zeroclipboard/ZeroClipboard.swf", size: 6580, mode: os.FileMode(436), modTime: time.Unix(1427920623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -374,9 +334,7 @@ func AssetNames() []string {
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
 	"README.md":                                         readme_md,
-	"data.go":                                           data_go,
 	"favicon.png":                                       favicon_png,
-	"generate.go":                                       generate_go,
 	"logo_red.png":                                      logo_red_png,
 	"logo_white.png":                                    logo_white_png,
 	"red_spinner.png":                                   red_spinner_png,
@@ -435,9 +393,7 @@ var _bintree = &_bintree_t{nil, map[string]*_bintree_t{
 			"d3pie.min.js": &_bintree_t{benkeen_d3pie_d3pie_min_js, map[string]*_bintree_t{}},
 		}},
 	}},
-	"data.go":     &_bintree_t{data_go, map[string]*_bintree_t{}},
 	"favicon.png": &_bintree_t{favicon_png, map[string]*_bintree_t{}},
-	"generate.go": &_bintree_t{generate_go, map[string]*_bintree_t{}},
 	"jiahuang": &_bintree_t{nil, map[string]*_bintree_t{
 		"d3-timeline": &_bintree_t{nil, map[string]*_bintree_t{
 			"d3-timeline.js": &_bintree_t{jiahuang_d3_timeline_d3_timeline_js, map[string]*_bintree_t{}},
