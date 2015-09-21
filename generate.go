@@ -1,4 +1,20 @@
-//go:generate go-bindata -pkg=data -ignore=.*\.go -o data.go . ./benkeen/d3pie/ ./jiahuang/d3-timeline/ ./krisk/fuse/ ./zeroclipboard/zeroclipboard/ ./seiyria/bootstrap-slider/
-//go:generate go fmt .
+// +build generate
 
-package data
+package main
+
+import (
+	"log"
+	"net/http"
+
+	"github.com/shurcooL/vfsgen"
+)
+
+func main() {
+	err := vfsgen.Generate(http.Dir("data"), vfsgen.Options{
+		PackageName:  "data",
+		VariableName: "Data",
+	})
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
