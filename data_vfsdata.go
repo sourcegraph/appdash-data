@@ -12,8 +12,8 @@ import (
 	"time"
 )
 
-// Assets statically implements the virtual filesystem given to vfsgen as input.
-var Assets = func() http.FileSystem {
+// Data statically implements the virtual filesystem given to vfsgen as input.
+var Data = func() http.FileSystem {
 	mustUnmarshalTextTime := func(text string) time.Time {
 		var t time.Time
 		err := t.UnmarshalText([]byte(text))
@@ -26,7 +26,7 @@ var Assets = func() http.FileSystem {
 	fs := _vfsgen_fs{
 		"/": &_vfsgen_dirInfo{
 			name:    "/",
-			modTime: mustUnmarshalTextTime("2015-09-21T05:51:10Z"),
+			modTime: mustUnmarshalTextTime("2015-09-21T18:13:39Z"),
 		},
 		"/benkeen": &_vfsgen_dirInfo{
 			name:    "benkeen",
