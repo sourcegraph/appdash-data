@@ -240,7 +240,7 @@ func (fs _vfsgen_fs) Open(path string) (http.File, error) {
 		}
 		return &_vfsgen_compressedFile{
 			_vfsgen_compressedFileInfo: f,
-			gr: gr,
+			gr:                         gr,
 		}, nil
 	case *_vfsgen_fileInfo:
 		return &_vfsgen_file{
